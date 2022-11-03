@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Lift Simulation</title>
+</head>
+<body>
+    <main>
+        <section class="section form_section">
+            <form action="#" id="form" class="form">
+                <div class="input_container">
+             <label for="floor_input">Add Number of floors</label>
+             <input type="number" placeholder="" name="" class="form_input" id="floor_input">
+             <p class="input_error" id="input_error--floors"></p>
+                </div>
+            <div class="input_container">
+                <label for="lift_input">Add number of lifts</label>
+                <input type="number" placeholder="" name="" class="form_input" id="lift_input">
+                <p class="input_error" id="input_error--lifts"></p>
+            </div>
+            <button type="submit" class="form_button" id="generate-button">Generate Lift and Floors</button>
+        </form>
+    </section>
+
+    <section class="section render_section" id="render_section">
+    </section>
+    </main>
+</body>
+<script src="./js/index.js" ></script>
+</html>
