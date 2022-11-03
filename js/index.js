@@ -162,7 +162,6 @@ function buttonHandler(){
 function selectLift(floorNo){
     
 let liftArray = Array.from(document.getElementsByClassName("lift"));
-console.log(liftArray);
 
 let difference = Number.MAX_SAFE_INTEGER;
 let liftToMove = null;
